@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Ads</title>
+	<!-- include css files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- include js files -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+	<!-- start navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand" href="#">Shop</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">Add Ads</a></li>
+		        <li><a href="#">Mobiles</a></li> 
+		        <li><a href="#">Computers</a></li> 
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	<!-- end navbar -->
+
+	<!-- start add ads -->
+	<div class="container add-ads">
+		<h1 class="title text-center"> Add Ads </h1>
+		<form action="/action_page.php">
+		    <div class="form-group">
+		      <label for="name">Name:</label>
+		      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+		    </div>
+		    <div class="form-group">
+		      <label for="price">Price:</label>
+		      <input type="number" class="form-control" id="price" placeholder="Enter Price" name="price">
+		    </div>
+		    <div class="form-group">
+		      <label for="category">Category:</label>
+		      <select class="form-control">
+		      	<option>Mobile</option>
+		      	<option>Computer</option>
+		      	<option>Laptop</option>
+		      </select>
+		    </div>
+		    <button type="submit" class="btn btn-default">Submit</button>
+		</form>		
+	</div>
+
+	<!-- end add ads -->
+	<!-- start footer -->
+		<div class="footer text-center">
+			<p>All right reversed &copy;</p>
+		</div>
+	<!-- end footer -->
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+	padding-top: 53px;
+}
+
+.navbar-inverse {
+    background-color: #990000;
+    border-color: #990000;
+}
+.navbar .navbar-nav li a {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.navbar .navbar-header .navbar-brand {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
+.cover{
+	background-image: url('../images/cover.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.item{
+	height: 275px;
+	background-color: #ff9999;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+
+}
+
+.item img{
+	height: 150px;
+	width: 100px;
+	margin: 10px auto;
+}
+
+.footer{
+	background-color: #990000;
+	height: 80px;
+	padding: 20px;
+	margin: 0px;
+	margin-top: 50px;
+}
+.footer p{
+	font-size: 25px;
+	color: #fff;
+}
+
+.regiser{
+	max-width: 800px;
+}
+
+.regiser .title{
+	margin-bottom: 20px;
+}
+
+.add-ads{
+	max-width: 800px;
+	margin-bottom: 300px;
+}
+
+.add-ads .title{
+	margin-bottom: 50px;
+}
